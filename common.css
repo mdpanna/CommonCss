@@ -1,11 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a,
 a:hover {
-    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none
 }
 
 h1,
@@ -15,37 +29,34 @@ h4,
 h5,
 h6 {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 p {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 img {
     vertical-align: middle;
-    border: none;
+    border: none
 }
 
-ul,
-ol {
-    list-style: none;
+ol,
+ul {
+    list-style: none
 }
 
+a,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-ul,
 ol,
-a {
+p,
+ul {
     margin: 0;
-    padding: 0;
-}
-body{
-  font-family: Arial;
+    padding: 0
 }
